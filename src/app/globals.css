@@ -124,7 +124,89 @@
   body {
     @apply bg-background text-foreground;
   }
-  html {
-    @apply font-sans;
-  }
+}
+
+/* Dark Emerald Gradient */
+.bg-gradient-dark-emerald {
+  background: linear-gradient(135deg, #065f46 0%, #064e3b 50%, #033b2e 100%);
+}
+
+.bg-gradient-dark-emerald-full {
+  background: linear-gradient(135deg, #065f46 0%, #064e3b 50%, #022c22 100%);
+  width: 100%;
+  height: 100%;
+}
+
+/* Alternative angles for Dark Emerald */
+.bg-gradient-dark-emerald-90 {
+  background: linear-gradient(90deg, #065f46 0%, #064e3b 50%, #022c22 100%);
+}
+
+.bg-gradient-dark-emerald-180 {
+  background: linear-gradient(180deg, #065f46 0%, #064e3b 50%, #022c22 100%);
+}
+
+.bg-gradient-dark-emerald-45 {
+  background: linear-gradient(45deg, #065f46 0%, #064e3b 50%, #022c22 100%);
+}
+
+.bg-gradient-dark-emerald-vertical {
+  background: linear-gradient(to bottom, #065f46 0%, #064e3b 50%, #022c22 100%);
+}
+
+.bg-gradient-dark-emerald-horizontal {
+  background: linear-gradient(to right, #065f46 0%, #064e3b 50%, #022c22 100%);
+}
+
+/* Radial variant */
+.bg-gradient-dark-emerald-radial {
+  background: radial-gradient(circle, #065f46 0%, #064e3b 50%, #022c22 100%);
+}
+
+/* With text color white for contrast */
+.bg-gradient-dark-emerald,
+.bg-gradient-dark-emerald-full,
+.bg-gradient-dark-emerald-90,
+.bg-gradient-dark-emerald-180,
+.bg-gradient-dark-emerald-45,
+.bg-gradient-dark-emerald-vertical,
+.bg-gradient-dark-emerald-horizontal,
+.bg-gradient-dark-emerald-radial {
+  color: #ffffff;
+}
+
+/* Bonus: Other gradient classes from previous examples */
+.bg-gradient-deep-ocean {
+  background: linear-gradient(135deg, #1a3a52 0%, #0f1419 50%, #000000 100%);
+  color: #ffffff;
+}
+
+.bg-gradient-charcoal-night {
+  background: linear-gradient(135deg, #374151 0%, #1f2937 50%, #111827 100%);
+  color: #ffffff;
+}
+
+.bg-gradient-midnight-plum {
+  background: linear-gradient(135deg, #3f2c4b 0%, #1a0f2e 50%, #0d0612 100%);
+  color: #ffffff;
+}
+
+.bg-gradient-dark-slate {
+  background: linear-gradient(135deg, #475569 0%, #1e293b 50%, #0f172a 100%);
+  color: #ffffff;
+}
+
+.bg-gradient-coal-twilight {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 50%, #0d1117 100%);
+  color: #ffffff;
+}
+
+.bg-gradient-obsidian-edge {
+  background: linear-gradient(135deg, #1f2d3d 0%, #0a0e27 50%, #000000 100%);
+  color: #ffffff;
+}
+
+.bg-gradient-noir-velvet {
+  background: linear-gradient(135deg, #3d2a3d 0%, #1a1025 50%, #000000 100%);
+  color: #ffffff;
 }
